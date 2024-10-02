@@ -14,3 +14,11 @@ module.exports = function (arr) {
     }
     return -1
 }
+
+/*
+Solution:
+Use a map to store the count of each element in the array. 
+If the count of any element exceeds arr.length / 2, return that element.
+If no such element is found, return -1.
+Time Complexity: O(n)
+*/

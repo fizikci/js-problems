@@ -30,3 +30,12 @@ module.exports = function (arr1, arr2) {
 
     return [arr1, arr2]
 }
+
+/*
+Solution:
+Start from the end of arr1 and the beginning of arr2.
+If arr1[i] > arr2[j], swap the elements and move i to the left and j to the right.
+This way, arr1 will have the small elements and arr2 will have the large elements.
+Sort both arrays.
+Time Complexity: O(nlogn + mlogm)
+*/

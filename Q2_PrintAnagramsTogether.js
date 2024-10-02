@@ -22,3 +22,11 @@ module.exports = function (arr) {
 
     return Object.keys(map).map(k => map[k]).sort((a, b) => a[0] < b[0] ? -1 : 1)
 }
+
+/*
+Solution:
+Create a map with sorted words as keys and arrays of anagrams as values.
+Return the values of the map sorted in lexicographic order.
+Time Complexity: O(n * mlogm) where n is the number of words and m is the length of the longest word.
+*/
+

@@ -21,3 +21,15 @@ module.exports = function (price) {
 
     return span
 }
+
+/*
+Solution:
+Create a stack to store the indexes of the prices.
+Iterate over the prices.
+For each price, pop all the elements from the stack whose prices are less than or equal to the current price.
+The span of the current price is the difference between the current index and the index at the top of the stack.
+If the stack is empty, the span is the current index + 1.
+Push the current index to the stack.
+Return the array of spans.
+Time Complexity: O(n)
+*/

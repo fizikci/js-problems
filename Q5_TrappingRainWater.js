@@ -30,3 +30,10 @@ module.exports = function (arr) {
 
     return water
 }
+
+/*
+Solution:
+Create two arrays to store the maximum height of blocks to the left and right of each block.
+Iterate over the array and calculate the water trapped between the blocks.
+Time Complexity: O(n)
+*/

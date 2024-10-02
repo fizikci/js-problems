@@ -61,3 +61,12 @@ module.exports = function (a) { // a is array
 
     return a;
 }
+
+/*
+Solution:
+Use Depth First Search (DFS) to traverse the matrix.
+Fill the border 'O's and the 'O's connected to them with a different character, say 'B'.
+Replace all the remaining 'O's with 'X'.
+Replace all the 'B's with 'O's.
+Time Complexity: O(N * M)
+*/
