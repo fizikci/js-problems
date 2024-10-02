@@ -13,7 +13,8 @@ let questions = [
             ]
         ]
     },
-    { title: "Trapping Rain Water", path: "./Q5_TrappingRainWater", params: [[3, 0, 0, 2, 0, 4]] }
+    { title: "Trapping Rain Water", path: "./Q5_TrappingRainWater", params: [[3, 0, 0, 2, 0, 4]] },
+    { title: "Merge Without Extra Space", path: "./Q6_MergeWithoutExtraSpace", params: [[1, 3, 5, 7], [0, 2, 6, 8, 9]] },
 ]
 
 for (let q of questions) {
